@@ -1,0 +1,10 @@
+{
+  //vue-cli默认将@作为src的别名，但是设置之后用@没有路径提示，这里开启路径提示
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+        "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
